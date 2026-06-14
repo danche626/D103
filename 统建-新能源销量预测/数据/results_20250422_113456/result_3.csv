@@ -1,0 +1,2 @@
+run_number,xgboost_params,xgboost_mse,xgboost_mape,xgboost_spatiotemporal_params,xgboost_spatiotemporal_mse,xgboost_spatiotemporal_mape
+3,"{'colsample_bytree': 0.9, 'learning_rate': 0.02, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.9}",39642004.0,0.13496585190296173,"{'colsample_bytree': 0.9, 'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 300, 'subsample': 0.8}",27110306.0,0.1021074429154396

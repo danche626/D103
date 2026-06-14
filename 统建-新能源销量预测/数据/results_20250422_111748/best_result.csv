@@ -1,0 +1,2 @@
+best_mse,best_mape,best_params
+38500740.0,0.06870123744010925,"{'colsample_bytree': 0.9, 'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 300, 'subsample': 0.8}"
