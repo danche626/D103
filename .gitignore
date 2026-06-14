@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+build/
+__pycache__/
+*.SLDASM
+*.SLDPRT
