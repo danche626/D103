@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+build/
+__pycache__/
+*.pyc
+*.o
+*.d
+*.map
+*.lib
+*.a

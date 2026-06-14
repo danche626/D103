@@ -1,0 +1,42 @@
+#include "uart_driver.h"
+
+int Uart_Printf(UART_HandleTypeDef *huart, const char *format, ...)
+{
+	char buffer[512]; // 临时存储格式化后的字符串
+	va_list arg;      // 处理可变参数
+	int len;          // 最终字符串长度
+
+	va_start(arg, format);
+	// 安全地格式化字符串到 buffer
+	len = vsnprintf(buffer, sizeof(buffer), format, arg);
+	va_end(arg);
+
+	// 通过 HAL 库发送 buffer 中的内容
+	HAL_UART_Transmit(huart, (uint8_t *)buffer, (uint16_t)len, 0xFF);
+	return len;
+}
+
+/* 串口 1 */
+uint8_t uart1_rx_dma_buffer[BUFFER_SIZE]; // DMA 读取缓冲区
+
+uint8_t uart1_ring_buffer_input[BUFFER_SIZE]; // 环形缓冲区对应的线性数组
+struct rt_ringbuffer uart1_ring_buffer; // 环形缓冲区
+
+uint8_t uart1_data_buffer[BUFFER_SIZE]; // 数据处理缓冲区
+
+void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
+{
+    /* 串口 1 */
+    if (huart->Instance == USART1)
+    {
+        HAL_UART_DMAStop(huart);
+
+        rt_ringbuffer_put(&uart1_ring_buffer, uart1_rx_dma_buffer, Size);
+
+        memset(uart1_rx_dma_buffer, 0, sizeof(uart1_rx_dma_buffer));
+
+        HAL_UARTEx_ReceiveToIdle_DMA(&huart1, uart1_rx_dma_buffer, sizeof(uart1_rx_dma_buffer));
+        
+         __HAL_DMA_DISABLE_IT(&hdma_usart1_rx, DMA_IT_HT);
+    }
+}
