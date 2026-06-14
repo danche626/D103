@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log/>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>96</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        
+        
+        
+      <PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><MixedMode>1</MixedMode><CodeCovEnabled>0</CodeCovEnabled><CodeCovShow>0</CodeCovShow></Disassembly>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>915</ColumnWidth1>
+        <ColumnWidth2>244</ColumnWidth2>
+        <ColumnWidth3>61</ColumnWidth3>
+      </Build>
+    <Watch><Format><struct_types/><watch_formats/></Format><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><Column0>100</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3></Watch><Register><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Register></Static>
+    <Windows>
+      
+      
+      
+    <Wnd4>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-10246-7822</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-9723-7832</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd4><Wnd5>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-20994-7825</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>tog</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd5><Wnd6><Tabs><Tab><Identity>TabID-2972-5387</Identity><TabName>Watch</TabName><Factory>Watch</Factory><Session><Expressions><Expression><Expression>temp_angle</Expression></Expression><Expression><Expression>yytemp</Expression></Expression><Expression><Expression>yy</Expression></Expression></Expressions><TabId>0</TabId><Column0>100</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd6><Wnd7><Tabs><Tab><Identity>TabID-6162-26675</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd7></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\acer\&#x684C;&#x9762;\1.8&#x6700;&#x7eC8;&#x7248;&#x672C;\main.c</Filename><XPos>0</XPos><YPos>353</YPos><SelStart>9436</SelStart><SelEnd>9436</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\acer\&#x684C;&#x9762;\1.8&#x6700;&#x7eC8;&#x7248;&#x672C;\time.c</Filename><XPos>0</XPos><YPos>60</YPos><SelStart>1293</SelStart><SelEnd>1293</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\acer\&#x684C;&#x9762;\1.8&#x6700;&#x7eC8;&#x7248;&#x672C;\display.c</Filename><XPos>0</XPos><YPos>3</YPos><SelStart>366</SelStart><SelEnd>366</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\acer\&#x684C;&#x9762;\1.8&#x6700;&#x7eC8;&#x7248;&#x672C;\LCD1602.c</Filename><XPos>0</XPos><YPos>142</YPos><SelStart>2732</SelStart><SelEnd>2732</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\acer\&#x684C;&#x9762;\1.8&#x6700;&#x7eC8;&#x7248;&#x672C;\LCD1602.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>292</SelStart><SelEnd>292</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\acer\&#x684C;&#x9762;\1.8&#x6700;&#x7eC8;&#x7248;&#x672C;\&#x8FB9;&#x754C;&#x68C0;&#x6D4B;.c</Filename><XPos>0</XPos><YPos>63</YPos><SelStart>621</SelStart><SelEnd>621</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\acer\&#x684C;&#x9762;\1.8&#x6700;&#x7eC8;&#x7248;&#x672C;\&#x8FB9;&#x754C;&#x68C0;&#x6D4B;.H</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>286</SelStart><SelEnd>286</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-003be5f8><key>iaridepm1</key></Toolbar-003be5f8></Sizes></Row0><Row1><Sizes><Toolbar-0150ae50><key>debuggergui1</key></Toolbar-0150ae50></Sizes></Row1><Row2><Sizes><Toolbar-014ea1f0><key>430fet1</key></Toolbar-014ea1f0></Sizes></Row2><Row3><Sizes/></Row3></Top><Left><Row0><Sizes><Wnd5><Rect><Top>-2</Top><Left>-2</Left><Bottom>466</Bottom><Right>170</Right><x>-2</x><y>-2</y><xscreen>0</xscreen><yscreen>0</yscreen><sizeHorzCX>0</sizeHorzCX><sizeHorzCY>0</sizeHorzCY><sizeVertCX>134375</sizeVertCX><sizeVertCY>646409</sizeVertCY></Rect></Wnd5></Sizes></Row0></Left><Right><Row0><Sizes><Wnd6><Rect><Top>-2</Top><Left>-2</Left><Bottom>466</Bottom><Right>31</Right><x>-2</x><y>-2</y><xscreen>0</xscreen><yscreen>0</yscreen><sizeHorzCX>0</sizeHorzCX><sizeHorzCY>0</sizeHorzCY><sizeVertCX>0</sizeVertCX><sizeVertCY>646409</sizeVertCY></Rect></Wnd6></Sizes></Row0><Row1><Sizes><Wnd7><Rect><Top>-2</Top><Left>29</Left><Bottom>466</Bottom><Right>62</Right><x>29</x><y>-2</y><xscreen>0</xscreen><yscreen>0</yscreen><sizeHorzCX>0</sizeHorzCX><sizeHorzCY>0</sizeHorzCY><sizeVertCX>0</sizeVertCX><sizeVertCY>646409</sizeVertCY></Rect></Wnd7></Sizes></Row1></Right><Bottom><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>165</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>167</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>230663</sizeHorzCY><sizeVertCX>0</sizeVertCX><sizeVertCY>0</sizeVertCY></Rect></Wnd4></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

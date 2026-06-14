@@ -1,0 +1,9 @@
+Output: Bill of Materials
+Type  : ReportComponents
+From  : Project [Car_bord.PrjPCB]
+
+
+Files Generated   : 0
+Documents Printed : 0
+
+Finished Output Generation At 22:23:02 On 2009-7-19

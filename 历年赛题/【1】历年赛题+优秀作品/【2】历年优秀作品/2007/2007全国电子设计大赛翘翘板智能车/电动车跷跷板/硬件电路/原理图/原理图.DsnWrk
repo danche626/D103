@@ -1,0 +1,8 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=主控板\主控板.PrjPcb
+[Project2]
+ProjectPath=信号板\信号板.PrjPcb
+[Project3]
+ProjectPath=零部件\零部件.PrjPcb

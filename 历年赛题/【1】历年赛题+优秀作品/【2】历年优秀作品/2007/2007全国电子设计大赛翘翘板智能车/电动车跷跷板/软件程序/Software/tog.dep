@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\display.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\tog.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\&#x503e;&#x89D2;.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\&#x8FB9;&#x754C;&#x68C0;&#x6D4B;.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\key.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\global.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\tog.d43</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\&#x4e3B;&#x7535;&#x673A;.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\&#x8FB9;&#x754C;&#x68C0;&#x6D4B;.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Control.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\&#x8235;&#x673A;.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Edge_Control.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Control.r43</file>
+      <file>$PROJ_DIR$\&#x8FB9;&#x754C;&#x68C0;&#x6D4B;.H</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$TOOLKIT_DIR$\config\multiplier.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\&#x503e;&#x89D2;.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\display.r43</file>
+      <file>$PROJ_DIR$\key.h</file>
+      <file>$PROJ_DIR$\global.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\&#x8235;&#x673A;.r43</file>
+      <file>$PROJ_DIR$\LCD1602.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\key.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x14x.h</file>
+      <file>$PROJ_DIR$\&#x8235;&#x673A;.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F149.xcl</file>
+      <file>$PROJ_DIR$\Edge_Control.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\&#x503e;&#x89D2;.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\display.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\&#x4e3B;&#x7535;&#x673A;.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$PROJ_DIR$\Control.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\LCD1602.r43</file>
+      <file>$PROJ_DIR$\&#x4e3B;&#x7535;&#x673A;.h</file>
+      <file>$PROJ_DIR$\time.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\global.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\time.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\LCD1602.pbi</file>
+      <file>$PROJ_DIR$\display.c</file>
+      <file>$PROJ_DIR$\Edge_Control.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\Edge_Control.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\time.r43</file>
+      <file>$PROJ_DIR$\LCD1602.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\time.c</file>
+      <file>$PROJ_DIR$\&#x4e3B;&#x7535;&#x673A;.c</file>
+      <file>$PROJ_DIR$\&#x503e;&#x89D2;.c</file>
+      <file>$PROJ_DIR$\&#x8235;&#x673A;.c</file>
+      <file>$PROJ_DIR$\&#x8FB9;&#x754C;&#x68C0;&#x6D4B;.c</file>
+      <file>$PROJ_DIR$\global.c</file>
+      <file>$PROJ_DIR$\key.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\tog.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 43 40 31 6 25 8 39 32 30 12 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\tog.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 28 18 14 35 20 38 5 17 44 9 19 23 4 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Control.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 26 2 13 27 16 36 24 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\display.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 22 24 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 24 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Edge_Control.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 26 2 13 27 16 36 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 2 13 27 16 36 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LCD1602.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 26 2 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 2 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 26 2 13 16 24 27 36 29 21 3 22 37 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 2 13 16 24 27 36 29 21 3 22 37 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\time.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 22 36 26 2 13 0 27 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 36 26 2 13 0 27 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\&#x4e3B;&#x7535;&#x673A;.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 26 2 13 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 2 13 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\&#x503e;&#x89D2;.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 26 2 13 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 2 13 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\&#x8235;&#x673A;.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 26 2 13 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 2 13 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\&#x8FB9;&#x754C;&#x68C0;&#x6D4B;.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 26 2 13 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 2 13 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\global.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\key.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 26 2 13 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 2 13 21</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

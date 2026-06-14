@@ -1,0 +1,15 @@
+.\objects\pid.o: ..\DRIVERS\pid.c
+.\objects\pid.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\pid.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\pid.o: ..\DRIVERS\pid.h
+.\objects\pid.o: ..\CMSIS\stm32f10x.h
+.\objects\pid.o: ..\CMSIS\core_cm3.h
+.\objects\pid.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pid.o: ..\CMSIS\system_stm32f10x.h
+.\objects\pid.o: ..\APP\stm32f10x_conf.h
+.\objects\pid.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\pid.o: ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_gpio.h
+.\objects\pid.o: ..\CMSIS\stm32f10x.h
+.\objects\pid.o: ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_rcc.h
+.\objects\pid.o: ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_usart.h
+.\objects\pid.o: ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\misc.h
